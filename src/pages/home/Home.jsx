@@ -29,21 +29,23 @@ const Home = () => {
         <div className='w-[calc(100vw-180px-290px)] h-[calc(100vh-140px-128px)] justify-self-center flex justify-center items-center'>
           <ScrollAnimation delay={0.2}>
             <div>
-              <motion.h1 
+              <motion.h1
                 className='text-[80px]/[94px]'
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
               >
-                Hi I'm subhasis,<br />a Software Engineer
+                Hi I'm Mukesh,<br />a Software Engineer
               </motion.h1>
-              <motion.p 
+              <motion.p
                 className='text-[var(--color-dark-gray)]'
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
-                I am an engineer with a passion for automation, data, and smart systems.<br />I've built tools that streamline operations and boost efficiency.<br />Skilled in Python, SQL, and front-end tech, I enjoy turning complex problems into simple, scalable solutions.
+                I build things for the internet. Sometimes they even work on the first try.
+                <br/>Specializing in React, Node.js, and pretending I understand CSS Grid.
+                <br/>Currently making the web a little less broken, one commit at a time.
               </motion.p>
             </div>
           </ScrollAnimation>
@@ -68,7 +70,7 @@ const Home = () => {
             </div>
 
             <div>
-              <motion.button 
+              <motion.button
                 className='flex items-center justify-between gap-4 p-4 border-[0.5px] border-[var(--color-light-gray)] rounded-full cursor-pointer'
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -84,25 +86,25 @@ const Home = () => {
         <ScrollAnimation delay={0.1}>
           <div className='flex items-start justify-between my-16'>
             <p className='title w-[840px]'>curious and driven individual who thrives on solving problems and learning new things.</p>
-            <p className='title-s w-[440px] text-right'>What sets me apart is my ability to blend technical expertise with product and operational insight</p>
+            <p className='title-s w-[440px] text-right'>What sets me apart is my ability to blend technical expertise with business outcomes.</p>
           </div>
         </ScrollAnimation>
 
       </div>
       <ScrollAnimation delay={0.1}>
-        <SectionTemplate title="Tech Stack" subText="I bring automation and data-driven solutions that boost efficiency, scalability, and impact for growing teams and businesses" MyComponent={TechStack} MyIconComponent={BsFillCpuFill} loadMore={false} colorScheme="--color-purple"/>
+        <SectionTemplate title="Tech Stack" subText="I bring tech solutions that boost efficiency, scalability, and impact for growing teams and businesses" MyComponent={TechStack} MyIconComponent={BsFillCpuFill} loadMore={false} colorScheme="--color-purple" />
       </ScrollAnimation>
 
       <ScrollAnimation delay={0.1}>
-        <SectionTemplate title="Experience" subText="I have practical experience driving operational efficiency through automation, data pipelines, and product solutions in fast-paced, real-world environments" MyComponent={ExperienceList} MyIconComponent={HiBriefcase} loadMore={true} colorScheme="--color-pink" redirectTo="experience"/>
+        <SectionTemplate title="Experience" subText="I have practical experience driving operational efficiency through software development, pipelines, and tech solutions in fast-paced, real-world environments" MyComponent={ExperienceList} MyIconComponent={HiBriefcase} loadMore={true} colorScheme="--color-pink" redirectTo="experience" />
       </ScrollAnimation>
 
       <ScrollAnimation delay={0.1}>
-        <SectionTemplate title="Projects" subText="I've built impactful projects across automation, data pipelines, and IoT, showcasing my ability to deliver real-world tech solutions" MyComponent={ProjectList} MyIconComponent={RiGitRepositoryFill} loadMore={true} colorScheme="--color-green" redirectTo="projects"/>
+        <SectionTemplate title="Projects" subText="I've built impactful projects across web development, showcasing my ability to deliver real-world tech solutions" MyComponent={ProjectList} MyIconComponent={RiGitRepositoryFill} loadMore={true} colorScheme="--color-green" redirectTo="projects" />
       </ScrollAnimation>
 
       <ScrollAnimation delay={0.1}>
-        <Footer/>
+        <Footer />
       </ScrollAnimation>
     </>
   )
@@ -110,7 +112,7 @@ const Home = () => {
 
 const ListItem = ({ social, index }) => {
   return (
-    <motion.li 
+    <motion.li
       className='cursor-pointer size-12 bg-[var(--color-creame)] text-[var(--color-black)] flex justify-center items-center rounded-full'
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
