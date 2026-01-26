@@ -29,7 +29,7 @@ const Navbar = () => {
                 transition={{ duration: 0.2 }}
             >
                 <div className='h-12 w-12 bg-[var(--color-creame)] rounded-full'></div>
-                <p>SUBU</p>
+                <p>MUKU</p>
             </motion.div>
             <div>
                 <ul className='nav-item-border p-4 rounded-full list-none flex items-center gap-16 h-[82px]'>
