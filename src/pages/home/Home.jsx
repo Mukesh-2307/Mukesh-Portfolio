@@ -16,10 +16,10 @@ import Footer from '../../components/Footer/Footer';
 import ProjectList from '../../components/ProjectList';
 
 const socialsLink = [
-  { label: 'twitter', link: '#' },
-  { label: 'github', link: '#' },
-  { label: 'linkedin', link: '#' },
-  { label: 'instagram', link: '#' },
+  { label: 'twitter', link: 'https://x.com/MukeshK82578898' },
+  { label: 'github', link: 'https://github.com/Mukesh-2307' },
+  { label: 'linkedin', link: 'https://www.linkedin.com/in/mukeshdalai2307/' },
+  { label: 'instagram', link: 'https://www.instagram.com/mukeshdalai.23/' },
 ]
 
 const Home = () => {
