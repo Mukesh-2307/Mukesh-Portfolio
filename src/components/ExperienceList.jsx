@@ -2,16 +2,10 @@ import React from 'react'
 
 const expList = [
   {
-    company: "Flipkart",
-    start: "Nov 2023",
-    end: 'now',
-    position: "Supply Chain Ops Analyst Trainee"
-  },
-  {
-    company: "BSNL",
-    start: "May 2022",
-    end: 'June 2022',
-    position: "Networking Intern"
+    company: "Center For Development of Advanced Computing",
+    start: "Mar 2025",
+    end: 'Aug 2025',
+    position: "Frontend Developer Intern"
   }
 ]
 
