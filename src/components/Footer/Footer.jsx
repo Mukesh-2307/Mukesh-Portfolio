@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex justify-between items-center py-2'>
-                <p>subumohanty ©2025 - Privacy Policy</p>
+                <p>mukeshdalai ©2025 - Privacy Policy</p>
                 <p>Inspired by <a href="https://www.thegr8binil.me/" style={{ color: `var(--color-light-teal)` }}>thegr8binil.me</a></p>
                 <p>Odisha, India</p>
             </div>
