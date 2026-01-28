@@ -24,7 +24,7 @@ const Experience = () => {
       <div className='px-10 my-10 flex flex-col' id="projects">
         <div className='border-b-[0.5px] border-[var(--color-light-gray)] pb-6 relative'>
           <h1 className={`title`} style={{ color: `var(--color-pink)` }}>Experience</h1>
-          <p className=' text-[var(--color-dark-gray)]'>I have practical experience driving operational efficiency through automation, data pipelines, and product solutions in fast-paced, real-world environments</p>
+          <p className=' text-[var(--color-dark-gray)]'>I have practical experience driving operational efficiency through software development, pipelines, and tech solutions in fast-paced, real-world environments</p>
           <div className='size-24 bg-[var(--color-creame)] absolute right-[100px] -bottom-[50px] rounded-full flex justify-center items-center' style={{ color: `var(--color-pink)` }}>
             <HiBriefcase className='size-12' />
           </div>

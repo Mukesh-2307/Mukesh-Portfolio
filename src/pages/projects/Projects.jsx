@@ -44,7 +44,7 @@ const Projects = () => {
       <div className='px-10 my-10 flex flex-col' id="projects">
         <div className='border-b-[0.5px] border-[var(--color-light-gray)] pb-6 relative'>
           <h1 className={`title`} style={{ color: `var(--color-green)` }}>Projects</h1>
-          <p className=' text-[var(--color-dark-gray)]'>I’ve built impactful projects across automation, data pipelines, and IoT, showcasing my ability to deliver real-world tech solutions</p>
+          <p className=' text-[var(--color-dark-gray)]'>I've built impactful projects across web development, showcasing my ability to deliver real-world tech solutions</p>
           <div className='size-24 bg-[var(--color-creame)] absolute right-[100px] -bottom-[50px] rounded-full flex justify-center items-center' style={{ color: `var(--color-green)` }}>
             <RiGitRepositoryFill className='size-12' />
           </div>
