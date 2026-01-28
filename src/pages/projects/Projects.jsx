@@ -4,41 +4,37 @@ import Footer from '../../components/Footer/Footer';
 
 const projects = [
   {
-    title: "Automated Multitrack Data using Python GUI in an Flipkart ERP site",
-    location: "Patna, Bihar",
-    company: "Flipkart",
+    title: "AWS-Hosted Portfolio Website",
+    location: "Bhubaneswar, Odisha",
+    company: "Personal Project",
     description: [
-      "Created a Python GUI application for an ERP system.",
-      "Automated the tracking and downloading of shipment TIDs, bypassing the site's 3000-chunk limit.",
-      "Improved supply chain efficiency and reduced man-hours through seamless tracking and enhanced data access.",
-      "Facilitated comprehensive data analysis to enhance operational workflows.",
+      "Deployed a responsive personal portfolio using React.js on AWS (S3 for hosting, CloudFront for CDN, Route 53 for DNS).",
+      "Configured AWS services to ensure high availability and security, demonstrating practical cloud knowledge.",
     ],
-    tech: ["Pandas", "NumPy", "Tkinter"],
+    tech: ["React.js", "AWS S3", "AWS CloudFront", "AWS Route 53"]
   },
   {
-    title: "Automated Data Pipelines for Real-Time Reporting",
-    location: "Patna, Bihar",
-    company: "Flipkart",
+    title: "Google Maps Clone - Geolocation Routing Application",
+    location: "Bhubaneswar, Odisha",
+    company: "Personal Project",
     description: [
-      "Built automated data pipelines integrated with Google Sheets using Google Apps Script.",
-      "Processed large datasets to generate real-time and accurate reports for ground operations teams.",
-      "Reduced operational breaches and escalations by enabling proactive monitoring.",
-      "Improved data visibility, leading to faster and more informed decision-making across teams.",
+      "Developed an interactive web application using Python, JavaScript, Leaflet.js, and OSMnx, enabling 50+ users to calculate shortest paths with 90% accuracy.",
+      "Applied data analysis to identify traffic bottlenecks, translating insights into actionable product improvements that enhanced customer experience.",
+      "Demonstrated ability to learn new frameworks quickly and work with web mapping technologies.",
     ],
-    tech: ["Google Apps Script", "Google APIs"],
+    tech: ["JavaScript", "Python", " Leaflet.js", "OSMnx Lib"]
   },
   {
-    title: "Smart Health Care Monitoring System Based on IoT",
-    location: "Sambalpur, Odisha",
-    company: "SUIIT",
+    title: "iNoteBook - FullStack Notes Taking Application",
+    location: "Bhubaneswar, Odisha",
+    company: "Personal Project",
     description: [
-      "Built an IoT-based health monitoring system to track vital parameters like temperature, oxygen level, and ECG.",
-      "Integrated sensors (LM35, MAX30100, ECG) and used NodeMCU to transmit real-time data to ThinkSpeak.",
-      "Enabled continuous, cloud-based monitoring, improving remote healthcare tracking.",
-      "Technologies Used: Arduino Mega, NodeMCU, ThinkSpeak, LM35, MAX30100, ECG Sensor.",
-      "GitHub Link: https://github.com/subumohanty/HealthMonitoringSystem",
+      "Engineered a customer-focused multi-user web application using MERN stack (MongoDB, Express.js, React.js, Node.js) with HTML5, CSS3, and JavaScript, supporting 100+ concurrent user sessions.",
+      "Implemented JWT-based authentication and Bcrypt password hashing following security best practices and SDLC standards; reduced average note retrieval time by 30% through optimized MongoDB queries.",
+      "Translated user needs into detailed product requirements, designing intuitive UI/UX that improved usability and customer satisfaction.",
+      "Conducted unit testing with Jest and followed agile development practices including peer code reviews and version control via Git."
     ],
-    tech: ["Arduino Mega", "Node MCU", "ThinkSpeak", "LM35", "MAX30100", "ECG"],
+    tech: ["React.js", "Express", "Node.js", "MongoDB", "JWT Auth", "BCrypt.js"]
   },
 ];
 
