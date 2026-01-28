@@ -2,22 +2,22 @@ import React from 'react'
 
 const projList = [
     {
-        name: "Automated Multitrack data using Python GUI in an Flipkart ERP site",
+        name: "AWS-Hosted Portfolio Website",
         type: "Development",
-        year: '2024',
-        tech: ["Pandas", "NumPy", "Tkinter"]
+        year: '2025',
+        tech: ["React.js", "AWS S3", "AWS CloudFront", "AWS Route 53"]
     },
     {
-        name: "Automated Data Pipelines for Real-Time Reporting",
+        name: "Google Maps Clone - Geolocation Routing Application",
         type: "Development",
         year: '2024',
-        tech: ["Google Apps Script", "Google APIs"]
+        tech: ["JavaScript", "Python", " Leaflet.js", "OSMnx Lib"]
     },
     {
-        name: "Smart Health Care Monitoring System Based on IoT",
+        name: "iNoteBook - FullStack Notes Taking Application",
         type: "Development",
         year: '2024',
-        tech: ["Arduino Mega", "LM35", "MAX30100", "ThinkSpeak", "ECG", "Node MCU",]
+        tech: ["React.js", "Express", "Node.js", "MongoDB", "JWT Auth", "BCrypt.js"]
     },
 ]
 
