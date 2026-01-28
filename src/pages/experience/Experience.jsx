@@ -4,36 +4,16 @@ import Footer from '../../components/Footer/Footer';
 
 const experiences = [
   {
-    title: "Supply Chain Ops Analyst Trainee",
-    location: "Patna, Bihar",
-    company: "Flipkart",
-    duration: "Aug 2025 - Present",
+    title: "Frontend Developer Intern",
+    location: "Guwahati, Assam",
+    company: "Center For Development of Advanced Computing",
+    duration: "Mar 2025 - Aug 2025",
     points: [
-      "Automated the tracking of Multitrack shipment data within Flipkart’s ERP system, reducing manual processing time by 90% and enabling seamless analysis of 100000+ TIDs daily.",
-      "Used serviceability mapping to correct mapping and clustering for the hubs, reducing misroutes in the supply chain.",
-      "Automated large-scale data pipelines involving ingestion, curation, wrangling, cleaning, and lineage, enabling real-time dashboards using App Script, Google Sheets API, Python, SQL, Selenium, and GIT.",
-      "Leveraged Generative AI tools such as ChatGPT and GitHub Copilot to accelerate development, automate documentation, and enhance code efficiency in automation projects.",
-    ],
-  },
-  {
-    title: "Product Design and Management",
-    location: "Patna, Bihar",
-    company: "Flipkart",
-    duration: "Nov 2024 - Aug 2025",
-    points: [
-      "Conceptualized and deployed Density-Based Cluster (DBC), In-House Time (IHT), and One-Touch Runsheet (OTRS) Models Auto-Sortation systems at last-mile hubs, leading to a reduction of 54 minutes in In-Hub Time (IHT) and a 2.88% increase in EMD performance across 300+ hubs.",
-      "Designed and rolled out a Serviceability Manager tool, enhancing shipment landing precision and bringing down misroute rates from 8% to 0.4%.",
-    ],
-  },
-  {
-    title: "Networking Intern",
-    location: "Cuttack, Odisha",
-    company: "BSNL",
-    duration: "Jul 2022 - Dec 2022",
-    points: [
-      "Gained hands-on experience in Advanced IP and Networking models, including in-depth training on IPv4, IPv6 addressing, and router configuration.",
-      "Worked on network design using Cisco Packet Tracer.",
-      "Enhanced Python programming skills through practical applications, enriching technical proficiency in scripting and network automation fundamentals.",
+      "Developed responsive web-based user interfaces for an E-Learning platform using React.js, TailwindCSS and ShadCN, improving UI responsiveness and achieving a 15% increase in user engagement over 3 months.",
+      "Collaborated with cross-functional teams of 5 engineers in an agile development environment to translate customer requirements into innovative product features, conducting daily standups and sprint planning.",
+      "Integrated RESTful APIs using Node.js and Express.js with Java Spring Boot backend; implemented unit testing and participated in peer code reviews to ensure code quality and best practices.",
+      "Optimized client-server communication using AJAX and HTTP protocols, ensuring data consistency across modules and reducing API response time by 20%.",
+      "Utilized Git for source control management and followed CI/CD principles to ship code rapidly in a fast-paced environment."
     ],
   },
 ];
