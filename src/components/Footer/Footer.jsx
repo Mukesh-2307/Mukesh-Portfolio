@@ -10,32 +10,34 @@ const Footer = () => {
                     <div className='grid grid-cols-3 gap-8'>
                         <p className='text-(--color-red)'>Explore</p>
                         <p className='col-span-2 text-(--color-purple)'>Follow Me</p>
-                        <a href="#">Home</a>
+                        <a href="/">Home</a>
                         <div className='flex gap-4 items-center justify-start'>
                             <FaLinkedin className='size-6'/>
-                            <a href="#">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/mukeshdalai2307/">LinkedIn</a>
                         </div>
                         <div className='flex gap-4 items-center justify-start'>
                             <FaSquareInstagram className='size-6'/>
-                            <a href="#">Instagram</a>
+                            <a href="https://www.instagram.com/mukeshdalai.23/">Instagram</a>
                         </div>
-                        <a href="#">Project</a>
+                        <a href="/projects">Project</a>
                         <div className='flex gap-4 items-center justify-start'>
                             <FaSquareGithub className='size-6'/>
-                            <a href="#">Github</a>
+                            <a href="https://github.com/Mukesh-2307">Github</a>
                         </div>
                         <div className='flex gap-4 items-center justify-start'>
-                            <FaSquareFacebook className='size-6'/>
-                            <a href="#">Facebook</a>
+                            {/* temporarily disabled */}
+                            {/* <FaSquareFacebook className='size-6'/> */}
+                            {/* <a href="#">Facebook</a> */}
                         </div>
-                        <a href="#">About Me</a>
+                        <a href="/about">About Me</a>
                         <div className='flex gap-4 items-center justify-start'>
                             <FaSquareXTwitter className='size-6'/>
-                            <a href="#">X</a>
+                            <a href="https://x.com/MukeshK82578898">X</a>
                         </div>
                         <div className='flex gap-4 items-center justify-start'>
-                            <FaSquareYoutube className='size-6'/>
-                            <a href="#">Youtube</a>
+                            {/* temporarily disabled */}
+                            {/* <FaSquareYoutube className='size-6'/>
+                            <a href="#">Youtube</a> */}
                         </div>
                     </div>
                 </div>
