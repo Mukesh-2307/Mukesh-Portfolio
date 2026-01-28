@@ -44,7 +44,7 @@ const Home = () => {
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
                 I build things for the internet. Sometimes they even work on the first try.
-                <br/>Specializing in React, Node.js, and pretending I understand CSS Grid.
+                <br/>Specializing in MongoDB, Express, React, Node.js, and pretending I understand CSS Grid.
                 <br/>Currently making the web a little less broken, one commit at a time.
               </motion.p>
             </div>
