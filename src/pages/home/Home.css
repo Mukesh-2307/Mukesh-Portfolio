@@ -1,3 +1,14 @@
 #hero-section{
     border-bottom: solid 0.5px var(--color-light-gray);
 }
+
+#videoBg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,.3);
+}

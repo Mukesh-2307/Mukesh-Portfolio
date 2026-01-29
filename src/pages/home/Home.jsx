@@ -6,6 +6,8 @@ import ScrollAnimation from '../../components/animations/ScrollAnimation';
 import TechStack from '../../components/TechStack';
 import { motion } from 'framer-motion';
 
+import videoBg from "../../assets/video_background_4.mp4"
+
 import { BsFillCpuFill } from "react-icons/bs";
 import { HiBriefcase } from "react-icons/hi2";
 import { RiGitRepositoryFill } from "react-icons/ri";
@@ -25,8 +27,10 @@ const socialsLink = [
 const Home = () => {
   return (
     <>
-      <div id="hero-section">
-        <div className='w-[calc(100vw-180px-290px)] h-[calc(100vh-140px-128px)] justify-self-center flex justify-center items-center'>
+      <div id="hero-section relative">
+        <div className="overlay h-[calc(100vh-140px-128px)]"></div>
+        <video src={videoBg} autoPlay loop muted className='z-0 h-[calc(100vh-140px-128px)]' id='videoBg'/>
+        <div className='w-[calc(100vw-180px-290px)] h-[calc(100vh-140px-128px)] justify-self-center flex justify-center items-center absolute top-40'>
           <ScrollAnimation delay={0.2}>
             <div>
               <motion.h1
@@ -44,15 +48,14 @@ const Home = () => {
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
                 I build things for the internet. Sometimes they even work on the first try.
-                <br/>Specializing in MongoDB, Express, React, Node.js, and pretending I understand CSS Grid.
-                <br/>Currently making the web a little less broken, one commit at a time.
+                <br />Specializing in MongoDB, Express, React, Node.js, and pretending I understand CSS Grid.
+                <br />Currently making the web a little less broken, one commit at a time.
               </motion.p>
             </div>
           </ScrollAnimation>
         </div>
       </div>
       <div className='px-10'>
-
         <ScrollAnimation delay={0.2}>
           <div className='flex items-center justify-between h-[calc(100vh-140px-650px)]'>
             <div>
